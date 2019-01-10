@@ -31,6 +31,9 @@ class getNamesOfLeaders(scrapy.Spider):
             print(get_names)
             if get_names is not None and get_names is not " ":
                 #get_desc = p.extract()
+                yield{
+                    'names':get_names,
+                }
                 print(get_names)
                 cur.execute('''INSERT OR IGNORE INTO namesOfLeader (name)
 					VALUES ( ? )''', ( get_names, ) ) # stacks the link found at the bottom
