@@ -31,7 +31,7 @@ LeaderBehaviour/leaderBehaviour/leaderBehaviour/spiders/newsTOI.sqlite
 LeaderBehaviour/getUSNames/getUSNames/spiders/getUSNames.json
 ```
 
-#### SCraped the names of the members of parliaments in India :
+#### Scraped the names of the members of parliaments in India :
 
 ```
 LeaderBehaviour/getIndianPolNames/getIndianPolNames/spiders/getIndianPolNames.json
@@ -41,4 +41,15 @@ LeaderBehaviour/getIndianPolNames/getIndianPolNames/spiders/getIndianPolNames.js
 
     * used headers/ user-agent in scrapy.
     * need to use proxy/ integrate with Tor to make it completely untraceable.
+
+#### Note :
+
+With such small data, the available set of information is not found. This repo will be updated shortly!
+
+#### Possible name extraction from the extracted text :
+
+```
+LeaderBehaviour/leaderBehaviour/leaderBehaviour/spiders/extractNamesTOI.py
+LeaderBehaviour/leaderBehaviour/leaderBehaviour/spiders/probable_names_extracted.json
+```
 
