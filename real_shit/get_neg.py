@@ -83,5 +83,5 @@ for i in tqdm(range(get_max_id+1)):
                 ( int(current_id), found_words, pol_names   ) )
         
 with open('output_data.json', 'w') as outfile:  
-    json.dump(data, outfile)
+    json.dump(data, outfile,indent=4, sort_keys=True)
 conn.commit()
