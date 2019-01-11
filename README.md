@@ -42,10 +42,10 @@ LeaderBehaviour/getIndianPolNames/getIndianPolNames/spiders/getIndianPolNames.js
     * used headers/ user-agent in scrapy.
     * need to use proxy/ integrate with Tor to make it completely untraceable.
 
-#### Note :
+#### UPDATED OUTPUT :
 
-With such small data, the available set of information is not found. This repo will be updated shortly!
-I have extracted the probable names from the text, need to just match it with every article in the text.
+After scraping and matching, we have obtained a json file containing the names and the behaviour of the people.
+[OUTPUT](https://github.com/Jimut123/LeaderBehaviour/blob/master/output_data.json)
 
 #### Possible [name](https://github.com/Jimut123/LeaderBehaviour/blob/master/leaderBehaviour/leaderBehaviour/spiders/probable_names_extracted.json) extraction from the extracted text :
 
