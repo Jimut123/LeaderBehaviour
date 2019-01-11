@@ -1,6 +1,8 @@
 # Leader Behaviour Prediction
 This project will deal with extracting and gathering information about the behaviour/ bad work (corresponding to predefined adjectives ) of a leader/ representative by constantly scraping news website.
 
+We have converted the output to a [JSON file](https://github.com/Jimut123/LeaderBehaviour/blob/master/output_data.json).
+
 ## Installing required libraries
 
 ```
@@ -42,10 +44,7 @@ LeaderBehaviour/getIndianPolNames/getIndianPolNames/spiders/getIndianPolNames.js
     * used headers/ user-agent in scrapy.
     * need to use proxy/ integrate with Tor to make it completely untraceable.
 
-#### UPDATED OUTPUT :
 
-After scraping and matching, we have obtained a json file containing the names and the behaviour of the people.
-[OUTPUT](https://github.com/Jimut123/LeaderBehaviour/blob/master/output_data.json)
 
 #### Possible [name](https://github.com/Jimut123/LeaderBehaviour/blob/master/leaderBehaviour/leaderBehaviour/spiders/probable_names_extracted.json) extraction from the extracted text :
 
@@ -53,4 +52,7 @@ After scraping and matching, we have obtained a json file containing the names a
 LeaderBehaviour/leaderBehaviour/leaderBehaviour/spiders/extractNamesTOI.py
 LeaderBehaviour/leaderBehaviour/leaderBehaviour/spiders/probable_names_extracted.json
 ```
+
+#### Note
+Go to the directory real_shit, then copy the scrapTOI.sqlite, then run *** python get_neg.py***.
 
